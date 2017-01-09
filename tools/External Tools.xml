@@ -1,0 +1,44 @@
+<toolSet name="External Tools">
+  <tool name="ins_project" description="вставляет шаблон проекта" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Serg\AppData\Local\Programs\Python\Python35-32\python.exe" />
+      <option name="PARAMETERS" value="C:\Users\Serg\.PyCharm2016.1\userplugins\ins_project\ins_project\insert.py $ProjectFileDir$ $Prompt$" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Serg/AppData/Local/Programs/Python/Python35-32" />
+    </exec>
+  </tool>
+  <tool name="pylint" description="pylint" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Serg\AppData\Local\Programs\Python\Python35-32\Scripts\pylint.exe" />
+      <option name="PARAMETERS" value="$FileName$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="tiled" description="tiled map" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="python" />
+      <option name="PARAMETERS" value="D:\save\serg\python\bin\last_tiled\tiled_run.py" />
+      <option name="WORKING_DIRECTORY" value="D:/save/serg/python/bin/Tiled-0.17.1375-win32" />
+    </exec>
+  </tool>
+  <tool name="cmd" description="cmd" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="cmd.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="firefox" description="firefox" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\save\serg\programm\Total Commander Extended\Soft\FirefoxPortable\FirefoxPortable.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="D:/save/serg/programm/Total Commander Extended/Soft/FirefoxPortable" />
+    </exec>
+  </tool>
+  <tool name="outwiker" description="outwiker_16x16" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="python" />
+      <option name="PARAMETERS" value="D:\save\serg\python\bin\outwiker_win_unstable_all_plugins\outwiker_run.py" />
+      <option name="WORKING_DIRECTORY" value="D:/save/serg/python/bin/outwiker_win_unstable_all_plugins" />
+    </exec>
+  </tool>
+</toolSet>

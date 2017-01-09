@@ -1,0 +1,11 @@
+<application>
+  <component name="GeneralSettings">
+    <option name="browserPath" value="D:\save\serg\programm\Total Commander Extended\Soft\FirefoxPortable\FirefoxPortable.exe" />
+    <option name="confirmExit" value="false" />
+    <option name="showTipsOnStartup" value="false" />
+    <option name="useDefaultBrowser" value="false" />
+  </component>
+  <component name="Registry">
+    <entry key="ide.firstStartup" value="false" />
+  </component>
+</application>
